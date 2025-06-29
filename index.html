@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <title>Coffee Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Dancing Script font for cafe-style headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css'
+        integrity='sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA=='
+        crossorigin='anonymous' />
+    <link rel="icon" type="image/png" href="./Images/coffee-logo.png">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header-section">
+            <div class="header-section__top-bar responsive-container">
+                <ul class="header-section__top-bar-text">
+                    <li>
+                        <p>Mon-Fri: 8am to 2pm</p>
+                    </li>
+                    <li>
+                        <p>Sat-Sun: 11am to 4pm</p>
+                    </li>
+                    <li>
+                        <p>1234-567-890</p>
+                    </li>
+                </ul>
+            </div>
+            <nav class="header-section__nav responsive-container">
+                <div class="navbar__logo-div">
+                    <img class="navbar__logo" src="./Images/coffee-logo.png" alt="Coffee Logo" loading="lazy">
+                </div>
+                <div class="navbar__links-div">
+                    <ul class="navbar__links">
+                        <li><a href="#section-1" class="white-clr">HOME</a></li>
+                        <li><a href="#section-2" class="white-clr">ABOUT</a></li>
+                        <li><a href="#section-3" class="white-clr">Menu</a></li>
+                        <li><a href="#section-5" class="white-clr">REVIEW</a></li>
+                        <li><a href="#section-book" class="white-clr">BOOK TABLE</a></li>
+                        <li><a href="#section-6" class="white-clr">BLOG</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="header-section__nav-mobile responsive-container">
+                <div class="navbar__logo-div">
+                    <img class="navbar__logo" src="./Images/coffee-logo.png" alt="Coffee Logo" loading="lazy">
+                </div>
+                <i class="fa-solid fa-bars"></i>
+                <div class="navbar__links-div">
+                    <ul class="navbar__links-mobile">
+                        <li><a href="#section-1" class="white-clr">HOME</a></li>
+                        <li><a href="#section-2" class="white-clr">ABOUT</a></li>
+                        <li><a href="#section-3" class="white-clr">Menu</a></li>
+                        <li><a href="#section-5" class="white-clr">REVIEW</a></li>
+                        <li><a href="#section-book" class="white-clr">BOOK TABLE</a></li>
+                        <li><a href="#section-6" class="white-clr">BLOG</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="main-section">
+            <section class="section-1" id="section-1">
+                <div class="section-1-div  responsive-container">
+                    <span class="section-1__span-text">NOW YOU CAN FEEL THE ENERGY</span>
+                    <h1 class="section-1__main-heading">Fuel Your Day with the<br><span style="display:block;">Richness of Coffee</span></h1>
+                    <button class="section-1__button-white">BUY NOW</button>
+                </div>
+            </section>
+            <section class="section-2 responsive-container" id="section-2">
+                <div class="section-2-left">
+                    <video src="./Videos/Coffee-video.mp4" autoplay muted></video>
+                </div>
+                <div class="section-2-right">
+                    <span class="section-2-right__span">LIVE COFFEE MAKING PROCESS.</span>
+                    <h2 class="section-2-right__h2 black-clr">We Telecast our Coffee Making Live</h2>
+                    <h4 class="section-2-right__h4 black-clr">We are here to listen from you deliver exellence</h4>
+                    <p class="section-2-right__p black-clr">Experience the art of coffee making in real time with our live telecast! Watch as our expert baristas craft each cup with passion and precision, right before your eyes. We believe in complete transparency and invite you to witness every step of our process. Your feedback matters to us, and we are always here to listen and deliver excellence in every cup. Join us for a truly interactive and engaging coffee experience!</p>
+                    <button class="section-2-right__button-secondary">LEARN MORE</button>
+                </div>
+            </section>
+            <section class="section-3 responsive-container common-padding" id="section-3" style="position:relative;overflow:visible;">
+              <h2 class="section-3__h2 black-clr text-center">What kind of Coffee we serve for you</h2>
+              <img src="./Images/coffee.webp" alt="Coffee Decorative" class="section-3__decor-img--center" style="display:block;margin:0 auto 18px auto;width:60px;max-width:14vw;height:auto;" loading="lazy">
+              <p class="section-3__p black-clr text-center">Who are in extremely love with eco friendly system.</p>
+              <div class="section-3__card-main-div">
+                <!-- All cart/order now related code removed. Only static cards remain. -->
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-1.jpg" alt="Cappuccino" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Cappuccino</h3>
+                        <p>₹220</p>
+                    </div>
+                    <p>Creamy espresso topped with frothed milk, served hot in a cup.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-2.jpg" alt="Americano" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Americano</h3>
+                        <p>₹180</p>
+                    </div>
+                    <p>Strong espresso diluted with hot water, delivering a bold flavor profile.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-3.jpg" alt="Espresso" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Espresso</h3>
+                        <p>₹120</p>
+                    </div>
+                    <p>Robust, concentrated coffee brewed by forcing hot water through fine grounds.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-4.jpg" alt="Macchiato" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Macchiato</h3>
+                        <p>₹210</p>
+                    </div>
+                    <p>Espresso with a splash of steamed milk; bold yet balanced.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-5.jpg" alt="Mocha" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Mocha</h3>
+                        <p>₹160</p>
+                    </div>
+                    <p>Espresso with chocolate and steamed milk; rich and indulgent.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-6.jpg" alt="Coffee Latte" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Coffee Latte</h3>
+                        <p>₹110</p>
+                    </div>
+                    <p>Espresso with creamy steamed milk; smooth and comforting.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/im-7.webp" alt="Piccolo Latte" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Piccolo Latte</h3>
+                        <p>₹150</p>
+                    </div>
+                    <p>Small latte with a strong espresso base, topped with a dollop.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-8.webp" alt="Ristretto" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Ristretto</h3>
+                        <p>₹170</p>
+                    </div>
+                    <p>Intensely flavored espresso shot with less water, offering a concentrated brew.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-9.avif" alt="Affogato" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Affogato</h3>
+                        <p>₹250</p>
+                    </div>
+                    <p>Espresso poured over vanilla ice cream, creating a delightful coffee dessert.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-10.jpg" alt="Dalgona Coffee" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Dalgona Coffee</h3>
+                        <p>₹349</p>
+                    </div>
+                    <p>Dalgona coffee is a whipped coffee drink, creating a creamy texture.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-11.jpg" alt="Frappe" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Frappe</h3>
+                        <p>₹140</p>
+                    </div>
+                    <p>Frappe coffee is a cold, blended coffee drink made creating a smooth texture.</p>
+                </div>
+                <div class="section-3__card black-clr">
+                    <img class="section-3__coffee-img" src="./Images/section-3-Images/img-12.webp" alt="Irish" loading="lazy">
+                    <div class="section-3__coffee-descp">
+                        <h3>Irish</h3>
+                        <p>₹200</p>
+                    </div>
+                    <p>Irish coffee is a warm, comforting drink made with whiskey, perfect for relaxation.</p>
+                </div>
+            </div>
+            </section>
+            <section class="section-4 responsive-container common-padding" id="section-4">
+                <h2 class="section-4__h2 black-clr text-center">Discover Your Perfect Cup of Coffee Today!</h2>
+                <p class="section-4__p black-clr text-center">Savor rich aromas for your ultimate coffee experience.</p>
+                <div class="section-4__img-div">
+                    <img class="img-big" src="./Images/Section-4-Images/img-3.avif" alt="Section 4 Image 1" loading="lazy">
+                    <img class="img-small" src="./Images/Section-4-Images/section-4-img-2.webp" alt="Section 4 Image 2" loading="lazy">
+                    <img class="img-small" src="./Images/Section-4-Images/section-4-img-3.webp" alt="Section 4 Image 3" loading="lazy">
+                    <img class="img-big" src="./Images/Section-4-Images/section-4-img-4.webp" alt="Section 4 Image 4" loading="lazy">
+                    <img class="img-small" src="./Images/Section-4-Images/section-4-img-5.webp" alt="Section 4 Image 5" loading="lazy">
+                    <img class="img-small" src="./Images/Section-4-Images/img-6.jpg" alt="Section 4 Image 6" loading="lazy">
+                </div>
+            </section>
+             <section class="section-5" id="section-5">
+                <div class="responsive-container">
+                    <h2 class="section-5__h2 text-center">Indulge in Rich Aromas: Your Perfect Coffee Fix</h2>
+                    <p class="section-5__p text-center">Embark on a journey to find your perfect cup.</p>
+                    <div class="section-5__testimonial-div">
+                        <div class="section-5__testimonial-carousel">
+                            <button class="section-5__arrow section-5__arrow--left" aria-label="Previous review"><i class="fa-solid fa-arrow-left"></i></button>
+                            <div class="section-5__testimonial active">
+                                <div class="section-5__reviewer">Priya Sharma</div>
+                                <p>Exquisite flavor, bold aroma, and unparalleled richness. This coffee is a daily indulgence, elevating my mornings and setting the standard for a perfect cup. Truly exceptional in every sip.</p>
+                                <div class="section-5__stars">
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star white-clr"></i>
+                                </div>
+                            </div>
+                            <div class="section-5__testimonial">
+                                <div class="section-5__reviewer">Rahul Verma</div>
+                                <p>Rich, robust, and utterly satisfying. This coffee is my daily ritual, fueling my day with its unparalleled flavor and energizing aroma. A true delight for the senses, it never disappoints.</p>
+                                <div class="section-5__stars">
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                </div>
+                            </div>
+                            <div class="section-5__testimonial">
+                                <div class="section-5__reviewer">Sneha Patel</div>
+                                <p>The smoothest coffee I've ever tasted. It has a rich, deep flavor that lingers pleasantly. Highly recommended for true coffee lovers!</p>
+                                <div class="section-5__stars">
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star white-clr"></i>
+                                </div>
+                            </div>
+                            <div class="section-5__testimonial">
+                                <div class="section-5__reviewer">Arjun Nair</div>
+                                <p>This coffee makes my mornings so much better. The aroma alone is enough to wake me up, and the taste is simply divine.</p>
+                                <div class="section-5__stars">
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                </div>
+                            </div>
+                            <div class="section-5__testimonial">
+                                <div class="section-5__reviewer">Meera Joshi</div>
+                                <p>Wonderful experience! The coffee is always fresh and the staff is super friendly. Highly recommend this place to all coffee lovers.</p>
+                                <div class="section-5__stars">
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                </div>
+                            </div>
+                            <div class="section-5__testimonial">
+                                <div class="section-5__reviewer">Vikram Singh</div>
+                                <p>Great ambiance and even better coffee. I love spending my afternoons here with a good book and a cup of their signature blend.</p>
+                                <div class="section-5__stars">
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star yellow-clr"></i>
+                                    <i class="fa-solid fa-star white-clr"></i>
+                                </div>
+                            </div>
+                            <button class="section-5__arrow section-5__arrow--right" aria-label="Next review"><i class="fa-solid fa-arrow-right"></i></button>
+                            <div class="section-5__review-count" style="position:absolute;bottom:18px;left:0;right:0;text-align:center;font-size:1.2rem;color:#a67c52;font-weight:600;"></div>
+                        </div>
+                        <!-- Moved counters here, below the review carousel -->
+                        <div class="section-5__counters" style="display:flex;justify-content:space-between;align-items:center;width:100%;max-width:700px;margin:2.8rem auto 0 auto;">
+                            <div class="section-5__counter" style="flex:1;text-align:center;">
+                                <span class="section-5__counter-number" data-val="350" style="font-size:4.2rem;font-weight:900;color:#a67c52;line-height:1;display:block;margin:0 auto;">0</span>
+                                <div class="section-5__counter-label" style="font-size:1.35rem;color:#7c5a36;margin-top:0.5rem;">Happy Clients</div>
+                            </div>
+                            <div class="section-5__counter" style="flex:1;text-align:center;">
+                                <span class="section-5__counter-number" data-val="320" style="font-size:4.2rem;font-weight:900;color:#a67c52;line-height:1;display:block;margin:0 auto;">0</span>
+                                <div class="section-5__counter-label" style="font-size:1.35rem;color:#7c5a36;margin-top:0.5rem;">Cups Served</div>
+                            </div>
+                            <div class="section-5__counter" style="flex:1;text-align:center;">
+                                <span class="section-5__counter-number" data-val="120" style="font-size:4.2rem;font-weight:900;color:#a67c52;line-height:1;display:block;margin:0 auto;">0</span>
+                                <div class="section-5__counter-label" style="font-size:1.35rem;color:#7c5a36;margin-top:0.5rem;">Coffee Varieties</div>
+                            </div>
+                            <div class="section-5__counter" style="flex:1;text-align:center;">
+                                <span class="section-5__counter-number" data-val="25" style="font-size:4.2rem;font-weight:900;color:#a67c52;line-height:1;display:block;margin:0 auto;">0</span>
+                                <div class="section-5__counter-label" style="font-size:1.35rem;color:#7c5a36;margin-top:0.5rem;">Awards Won</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Move Book Table section here, before the blog -->
+            <section class="section-book responsive-container common-padding" id="section-book" style="position:relative;overflow:visible;">
+  <div style="display:flex;align-items:center;gap:2.5rem;position:relative;z-index:1;flex-wrap:nowrap;">
+    <img src="./Images/coffee cup1.webp" alt="Coffee Cup" class="section-book__coffee-cup" style="max-width:220px;width:18vw;min-width:120px;height:auto;object-fit:contain;display:block;flex:0 0 auto;margin:0;" loading="lazy">
+    <div style="flex:1 1 320px;min-width:260px;max-width:420px;margin:0;">
+      <h2 class="section-book__h2 black-clr text-center">Book Your Coffee Date</h2>
+      <form class="section-book__form">
+        <div class="section-book__form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9]{10,}">
+        </div>
+        <div class="section-book__form-group">
+          <input type="number" name="people" placeholder="How Many Persons?" min="1" max="20" required>
+        </div>
+        <div class="section-book__form-group">
+          <input type="date" name="date" required>
+          <input type="time" name="time" required>
+        </div>
+        <div class="section-book__form-group">
+          <textarea name="message" placeholder="Any message?" rows="2"></textarea>
+        </div>
+        <button type="submit" class="section-book__button">Book Table</button>
+      </form>
+    </div>
+  </div>
+</section>
+            <section class="section-6 responsive-container" id="section-6">
+                <h2 class="section-6__h2 black-clr text-center">Exploring Coffee Culture: A Journey of Aromas</h2>
+                <p class="section-6__p black-clr text-center">Embark on a flavorful journey through diverse coffee cultures.</p>
+                <div class="section-6__blog-div">
+                    <div class="section-6__blog animate-left">
+                        <img src="./Images/Section-6-Images/Blog-image-1.webp" alt="Blog-image-1" loading="lazy">
+                        <div class="section-6__blog-category">
+                            <a href="#">Travel</a>
+                            <a href="#">Lifestyle</a>
+                        </div>
+                        <h5 class="section-6__blog-title black-clr">The Art of Coffee: A Guide</h5>
+                        <p class="section-6__blog-descp black-clr">Discover the intricate craft of coffee brewing, from
+                            bean
+                            selection to the perfect pour, in this comprehensive guide</p>
+                        <p class="section-6__blog-date black-clr">31st January, 2025</p>
+                    </div>
+                    <div class="section-6__blog animate-right">
+                        <img src="./Images/Section-6-Images/Blog-image-2.webp" alt="Blog-image-2" loading="lazy">
+                        <div class="section-6__blog-category">
+                            <a href="#">Travel</a>
+                            <a href="#">Lifestyle</a>
+                        </div>
+                        <h5 class="section-6__blog-title black-clr">Exploring Espresso: A Connoisseur's Perspective</h5>
+                        <p class="section-6__blog-descp black-clr">Immerse yourself in the world of espresso, exploring
+                            its
+                            origins, flavors, and techniques with expert insights.</p>
+                        <p class="section-6__blog-date black-clr">18th May, 2025</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT & FEEDBACK SECTION -->
+         <section id="contact-feedback" style="max-width:420px;margin:32px auto 0 auto;padding:18px 20px 12px 20px;background:#fff7f0;border-radius:12px;box-shadow:0 2px 12px #0001;">
+    <h2 style="font-size:1.7rem;margin-bottom:10px;text-align:center;font-weight:700;letter-spacing:0.5px;">Feedback</h2>
+    <div class="feedback-form" style="margin:0 auto;">
+        <form id="feedback-form">
+            <input type="text" placeholder="Your Name" required style="width:100%;margin-bottom:8px;">
+            <input type="email" placeholder="Your Email" required style="width:100%;margin-bottom:8px;">
+            <textarea placeholder="Your Message..." rows="3" required style="width:100%;margin-bottom:8px;"></textarea>
+            <button type="submit" style="width:100%;background:#a67c52;color:#fff;border:none;padding:8px 0;border-radius:6px;font-size:1rem;font-family:'Poppins',sans-serif;font-weight:500;cursor:pointer;">Submit Feedback</button>
+        </form>
+    </div>
+</section>
+        <footer class="footer common-padding">
+            <div class="responsive-container">
+                <div class="footer__about-div">
+                    <h4>About Us</h4>
+                    <p>Explore our passion-perfected coffee blends and savor the journey with every rich, flavorful cup. Welcome to our coffee family.</p>
+                    <p class="footer_copyright-text">Copyright ©2025 <span>Preethi</span> | All rights reserved</p>
+                </div>
+                <div class="footer__newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Stay updates with our latest news</p>
+                    <div class="footer__search-div">
+                        <input type="search" placeholder="Enter Email">
+                        <button><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="footer__follow-us">
+                    <h4>Follow Us</h4>
+                    <p>Let us be social</p>
+                    <div class="footer__social-links">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
